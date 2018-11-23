@@ -1,0 +1,3 @@
+[submodule "WeatherApp/weather-app"]
+	path = WeatherApp/weather-app
+	url = C:\\dev\\react\\WeatherApp\\weather-app
