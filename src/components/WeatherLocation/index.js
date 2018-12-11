@@ -16,13 +16,10 @@ class WeatherLocation extends Component {
     }
 
     componentDidMount(){
-        console.log("componentDidMount");
         this.handleUpdateClick();
     }
 
-    componentDidUpdate(prevProps, prevState){
-        console.log("componentDidUpdate");
-    }
+    componentDidUpdate(prevProps, prevState){ }
 
     handleUpdateClick = () => {
         const api_weather = getUrlWeatherByCity(this.state.city);
@@ -39,7 +36,6 @@ class WeatherLocation extends Component {
 
     render(){
         const {onWeatherLocationClick} = this.props;
-        console.log("render");
         const {city, data} = this.state;
         return (
             <div className="WeatherLocationCont" onClick={onWeatherLocationClick}>

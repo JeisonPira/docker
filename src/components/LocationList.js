@@ -5,7 +5,6 @@ import './styles.css';
 
 const LocationList = ({cities, onSelectedLocation}) => {
     const handlerWeatherLocationClick = city => {
-        console.log("handlerWeatherLocationClick" + city);
         onSelectedLocation(city);
     };
     const strToComponents = cities => (
