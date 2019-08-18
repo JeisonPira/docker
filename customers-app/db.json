@@ -1,0 +1,33 @@
+{
+  "customers": [
+    {
+      "id": "79832",
+      "dni": "79832",
+      "name": "Sonia Kitanya",
+      "age": 17
+    },
+    {
+      "id": "2",
+      "dni": "2",
+      "name": "Sonia Kitanya",
+      "age": 17
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
