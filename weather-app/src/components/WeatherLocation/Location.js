@@ -1,10 +1,11 @@
 import React from 'react';
 import PropTypes from "prop-types";
+import Typography from '@material-ui/core/Typography';
 
 const Location = ({ city }) => (
-    <div className="locationCont">
-        <h1>{city}</h1>
-    </div>
+    <Typography variant="h5" >
+        {city}
+    </Typography>
 );
 
 Location.propTypes = {
